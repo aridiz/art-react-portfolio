@@ -1,3 +1,5 @@
+import imagesImport, { gallery001, gallery002 } from './images_import';
+
 const logotext = "ARIANNA DIAZ";
 const meta = {
     title: "Arianna Diaz",
@@ -5,12 +7,12 @@ const meta = {
 };
 
 const dataportfolio = [{
-    img: "./assets/images/gallery/adiaz-flower.png",
+    img: gallery001,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
 {
-    img: "./assets/images/gallery/adiaz-wood.png",
+    img: gallery002,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
@@ -18,11 +20,13 @@ const dataportfolio = [{
 
 const images = [
     {
-    imageUrl : dataportfolio[0].img,
+    imageUrl : gallery001,
     imageTitle : "home-image",
     imageAlt : "home-image"
 },
 ];
+
+console.log(images[0].imageUrl); //test - works
 
 const introdata = {
     title: "I’m Arianna",
@@ -32,10 +36,9 @@ const introdata = {
         third: "just a girl who loves textures and light",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: dataportfolio[0].img,   //Header image
+    your_img_url: images[0].imageUrl,   //Header image
 };
 
-console.log(dataportfolio[0].img);
 
 
 const dataabout = {
