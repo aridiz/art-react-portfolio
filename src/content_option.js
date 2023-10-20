@@ -1,19 +1,33 @@
+
 const logotext = "ARIANNA DIAZ";
 const meta = {
     title: "Arianna Diaz",
     description: "I’m Arianna Diaz _",
 };
 
+const images = [
+    {
+    imageUrl : "./assets/images/gallery/adiaz-flower.png",
+    imageTitle : "header",
+    imageAlt : "flower photograph"
+},
+{
+    imageUrl : "./assets/images/gallery/adiaz-wood.png",
+    imageTitle : "header",
+    imageAlt : "wood photograph"
+},];
+
 const introdata = {
     title: "I’m Arianna",
     animated: {
-        first: "I love textures",
+        first: "I see things",
         second: "I see ------------",
-        third: "I make ------------",
+        third: "just a girl who loves textures and light",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: "assets/images/react portfolio gif.gif",
+    your_img_url: images[0].imageUrl,   //Header image
 };
+
 
 const dataabout = {
     title: "a bit about my self",
@@ -36,7 +50,7 @@ const skills = [{
         value: 0,
     },
     {
-        name: "Djano",
+        name: "Django",
         value: 0,
     },
     {
@@ -61,63 +75,12 @@ const services = [
 ];
 
 const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
+        img: images[0].imageUrl,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
+        img: images[0].imageUrl,
         description: "The wisdom of life consists in the elimination of non-essentials.",
         link: "#",
     },
@@ -141,6 +104,9 @@ const socialprofils = {
     // twitter: "https://twitter.com",
     instagram: "https://www.instagram.com/_.ari._.diaz._/"
 };
+
+
+
 export {
     meta,
     dataabout,
@@ -152,4 +118,5 @@ export {
     contactConfig,
     socialprofils,
     logotext,
+    images,
 };
