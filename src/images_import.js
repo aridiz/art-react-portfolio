@@ -6,7 +6,11 @@
 //     gallery002,
 // };
 
-const imageFileNames = ['adiaz-flower.webp', 'adiaz-wood.webp'];
+const imageFileNames = [
+'adiaz-flower.webp', 
+'adiaz-wood.webp', 
+'header-image.webp',
+'adiaz-ice.jpg',];
 
 const importedImages = {};
 

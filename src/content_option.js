@@ -6,21 +6,31 @@ const meta = {
     description: "I’m Arianna Diaz _",
 };
 
-const dataportfolio = [{
-    img: importedImages.gallery001,
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-},
-{
-    img: importedImages.gallery002,
-    description: "The wisdom of life consists in the elimination of non-essentials.",
-    link: "#",
-},
-];
+// const dataportfolio = [{
+//     img: importedImages.gallery001,
+//     description: "The wisdom of life consists in the elimination of non-essentials.",
+//     link: "#",
+// },
+// {
+//     img: importedImages.gallery002,
+//     description: "The wisdom of life consists in the elimination of non-essentials.",
+//     link: "#",
+// },
+// ];
+
+const dataportfolio = [];
+Object.keys(importedImages).forEach((imageKey, index) => {
+    const item = {
+      img: importedImages[imageKey],
+      description: "The wisdom of life consists in the elimination of non-essentials.",
+      link: "#",
+    };
+    dataportfolio.push(item);
+  });
 
 const images = [
     {
-    imageUrl : importedImages.gallery001,
+    imageUrl : importedImages.gallery003,
     imageTitle : "home-image",
     imageAlt : "home-image"
 },
@@ -42,7 +52,7 @@ const introdata = {
 
 
 const dataabout = {
-    title: "a bit about my self",
+    title: "a bit about myself",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
 const worktimeline = [{
