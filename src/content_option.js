@@ -1,21 +1,28 @@
-
 const logotext = "ARIANNA DIAZ";
 const meta = {
     title: "Arianna Diaz",
     description: "I’m Arianna Diaz _",
 };
 
-const images = [
-    {
-    imageUrl : "./assets/images/gallery/adiaz-flower.png",
-    imageTitle : "header",
-    imageAlt : "flower photograph"
+const dataportfolio = [{
+    img: "./assets/images/gallery/adiaz-flower.png",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
 },
 {
-    imageUrl : "./assets/images/gallery/adiaz-wood.png",
-    imageTitle : "header",
-    imageAlt : "wood photograph"
-},];
+    img: "./assets/images/gallery/adiaz-wood.png",
+    description: "The wisdom of life consists in the elimination of non-essentials.",
+    link: "#",
+},
+];
+
+const images = [
+    {
+    imageUrl : dataportfolio[0].img,
+    imageTitle : "home-image",
+    imageAlt : "home-image"
+},
+];
 
 const introdata = {
     title: "I’m Arianna",
@@ -25,8 +32,10 @@ const introdata = {
         third: "just a girl who loves textures and light",
     },
     description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
-    your_img_url: images[0].imageUrl,   //Header image
+    your_img_url: dataportfolio[0].img,   //Header image
 };
+
+console.log(dataportfolio[0].img);
 
 
 const dataabout = {
@@ -74,18 +83,6 @@ const services = [
     },
 ];
 
-const dataportfolio = [{
-        img: images[0].imageUrl,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: images[0].imageUrl,
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-];
-
 const contactConfig = {
     YOUR_EMAIL: "info@ariannadiaz.com",
     // YOUR_FONE: "(555)123-4567",
@@ -101,11 +98,9 @@ const socialprofils = {
     github: "https://github.com",
     facebook: "https://facebook.com",
     linkedin: "https://linkedin.com",
-    // twitter: "https://twitter.com",
+    twitter: "https://twitter.com",
     instagram: "https://www.instagram.com/_.ari._.diaz._/"
 };
-
-
 
 export {
     meta,
