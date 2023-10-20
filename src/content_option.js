@@ -1,4 +1,4 @@
-import imagesImport, { gallery001, gallery002 } from './images_import';
+import importedImages from './images_import';
 
 const logotext = "ARIANNA DIAZ";
 const meta = {
@@ -7,12 +7,12 @@ const meta = {
 };
 
 const dataportfolio = [{
-    img: gallery001,
+    img: importedImages.gallery001,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
 {
-    img: gallery002,
+    img: importedImages.gallery002,
     description: "The wisdom of life consists in the elimination of non-essentials.",
     link: "#",
 },
@@ -20,7 +20,7 @@ const dataportfolio = [{
 
 const images = [
     {
-    imageUrl : gallery001,
+    imageUrl : importedImages.gallery001,
     imageTitle : "home-image",
     imageAlt : "home-image"
 },
