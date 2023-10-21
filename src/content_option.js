@@ -6,18 +6,6 @@ const meta = {
     description: "I’m Arianna Diaz _",
 };
 
-// const dataportfolio = [{
-//     img: importedImages.gallery001,
-//     description: "The wisdom of life consists in the elimination of non-essentials.",
-//     link: "#",
-// },
-// {
-//     img: importedImages.gallery002,
-//     description: "The wisdom of life consists in the elimination of non-essentials.",
-//     link: "#",
-// },
-// ];
-
 const dataportfolio = [];
 Object.keys(importedImages).forEach((imageKey, index) => {
     const item = {
@@ -30,7 +18,8 @@ Object.keys(importedImages).forEach((imageKey, index) => {
 
 const images = [
     {
-    imageUrl : importedImages.gallery003,
+    //Home image
+    imageUrl : importedImages.gallery000,
     imageTitle : "home-image",
     imageAlt : "home-image"
 },

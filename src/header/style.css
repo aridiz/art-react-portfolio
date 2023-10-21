@@ -195,7 +195,7 @@
 
 .menu_footer {
     bottom: 0;
-    font-family: Marcellus;
+    font-family: 'Poppins', sans-serif;    
     font-size: 14px;
     background: var(--primary-color);
 }
@@ -204,4 +204,8 @@
     color: var(--text-color-2);
     margin-right: 10px;
     text-decoration: none;
+}
+
+p {
+    font-size: 16px;
 }

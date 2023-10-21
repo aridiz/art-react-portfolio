@@ -7,6 +7,7 @@
 // };
 
 const imageFileNames = [
+'adiaz-portrait.webp', //home image
 'adiaz-flower.webp', 
 'adiaz-wood.webp', 
 'header-image.webp',
@@ -15,7 +16,7 @@ const imageFileNames = [
 const importedImages = {};
 
 imageFileNames.forEach((fileName, index) => {
-    importedImages[`gallery00${index + 1}`] = require(`./assets/images/gallery/${fileName}`);
+    importedImages[`gallery00${index}`] = require(`./assets/images/gallery/${fileName}`);
   });
 
   export default importedImages;
