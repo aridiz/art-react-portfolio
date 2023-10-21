@@ -9,9 +9,10 @@ const meta = {
 const dataportfolio = [];
 Object.keys(importedImages).forEach((imageKey, index) => {
     const item = {
-      img: importedImages[imageKey],
-      description: "The wisdom of life consists in the elimination of non-essentials.",
-      link: "#",
+      img: importedImages[imageKey].path,
+      description: importedImages[imageKey].description,
+      alt: importedImages[imageKey].alt,
+      link: "#", //TODO change with image url
     };
     dataportfolio.push(item);
   });
@@ -19,13 +20,13 @@ Object.keys(importedImages).forEach((imageKey, index) => {
 const images = [
     {
     //Home image
-    imageUrl : importedImages.gallery000,
+    imageUrl : importedImages.gallery000.path,
     imageTitle : "home-image",
     imageAlt : "home-image"
 },
 ];
 
-console.log(images[0].imageUrl); //test - works
+console.log(importedImages); //test - works
 
 const introdata = {
     title: "I’m Arianna",

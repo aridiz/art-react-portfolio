@@ -1,22 +1,33 @@
-// import gallery001 from './assets/images/gallery/adiaz-flower.png'; 
-// import gallery002 from './assets/images/gallery/adiaz-wood.png'; 
-
-// export {
-//     gallery001,
-//     gallery002,
-// };
-
 const imageFileNames = [
-'adiaz-portrait.webp', //home image
-'adiaz-flower.webp', 
-'adiaz-wood.webp', 
-'header-image.webp',
-'adiaz-ice.jpg',];
+  {
+    //first image goes also on homepage
+    fileName: 'adiaz-portrait.webp', //home image
+    altText: 'self portrait',
+    description: 'self portrait',
+  },
+  {
+    fileName: 'header-image.webp', 
+    altText: 'test',
+    description: 'description sample',
+  },
+  {
+    fileName: 'adiaz-ice.jpg', 
+    altText: 'test',
+    description: 'description sample',
+  }
+];
 
-const importedImages = {};
-
-imageFileNames.forEach((fileName, index) => {
-    importedImages[`gallery00${index}`] = require(`./assets/images/gallery/${fileName}`);
+  const importedImages = {};
+  
+  imageFileNames.forEach((file, index) => {
+    // Build file path to export
+    // const filePath = `./assets/images/gallery/${file.fileName}`;
+    importedImages[`gallery00${index}`] = {
+      path: require(`./assets/images/gallery/${file.fileName}`),
+      description: file.description,
+      alt: file.altText,
+    };
   });
 
   export default importedImages;
+  
