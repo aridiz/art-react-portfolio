@@ -26,8 +26,6 @@ const images = [
 },
 ];
 
-console.log(importedImages); //test - works
-
 const introdata = {
     title: "I’m Arianna",
     animated: {
@@ -100,7 +98,7 @@ const contactConfig = {
 const socialprofils = {
     github: "https://github.com",
     facebook: "https://facebook.com",
-    linkedin: "https://linkedin.com",
+    linkedin: "www.linkedin.com/in/diazarianna",
     twitter: "https://twitter.com",
     instagram: "https://www.instagram.com/_.ari._.diaz._/"
 };
