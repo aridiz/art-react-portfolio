@@ -14,7 +14,17 @@ const imageFileNames = [
     fileName: 'adiaz-ice.jpg', 
     altText: 'test',
     description: 'description sample',
-  }
+  },
+  {
+    fileName: 'adiaz-flower.jpeg', 
+    altText: 'test',
+    description: 'description sample',
+  },
+  {
+    fileName: 'adiaz-wood.jpeg', 
+    altText: 'test',
+    description: 'description sample',
+  },
 ];
 
   const importedImages = {};
