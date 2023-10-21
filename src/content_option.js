@@ -45,39 +45,39 @@ const dataabout = {
     title: "a bit about myself",
     aboutme: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent quis dolor id ligula semper elementum feugiat pretium nulla. Nunc non commodo dolor. Nunc mollis dignissim facilisis. Morbi ut magna ultricies.",
 };
-const worktimeline = [{
-        jobtitle: "",
-        where: "",
-        date: "",
-    },
-    {
-        jobtitle: "",
-        where: "",
-        date: "",
-    },
-];
+// const  = [{
+//         jobtitle: "",
+//         where: "",
+//         date: "",
+//     },
+//     {
+//         jobtitle: "",
+//         where: "",
+//         date: "",
+//     },
+// ];
 
-const skills = [{
-        name: "Python",
-        value: 0,
-    },
-    {
-        name: "Django",
-        value: 0,
-    },
-    {
-        name: "Javascript",
-        value: 0,
-    },
-    {
-        name: "React",
-        value: 0,
-    },
-    {
-        name: "Jquery",
-        value: 0,
-    },
-];
+// const skills = [{
+//         name: "Python",
+//         value: 0,
+//     },
+//     {
+//         name: "Django",
+//         value: 0,
+//     },
+//     {
+//         name: "Javascript",
+//         value: 0,
+//     },
+//     {
+//         name: "React",
+//         value: 0,
+//     },
+//     {
+//         name: "Jquery",
+//         value: 0,
+//     },
+// ];
 
 const services = [
     {
@@ -109,8 +109,8 @@ export {
     meta,
     dataabout,
     dataportfolio,
-    worktimeline,
-    skills,
+    // worktimeline,
+    // skills,
     services,
     introdata,
     contactConfig,
