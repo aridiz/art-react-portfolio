@@ -30,14 +30,12 @@ const introdata = {
     title: "I’m Arianna",
     animated: {
         first: "I see things",
-        second: "I see ------------",
-        third: "just a girl who loves textures and light",
+        second: "I love TEXTURES and LIGHT ",
+        third: "some sense of ALTERED reality",
     },
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed at nisl euismod urna bibendum",
+    description: "this website is my personal exploration of **** inspired by music, psychedelia and illustration",
     your_img_url: images[0].imageUrl,   //Header image
 };
-
-
 
 const dataabout = {
     title: "a bit about myself",

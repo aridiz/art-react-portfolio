@@ -6,7 +6,17 @@ const imageFileNames = [
     description: 'self portrait',
   },
   {
+    fileName: 'adiaz-the-eye.png', 
+    altText: 'test',
+    description: 'description sample',
+  },
+  {
     fileName: 'header-image.webp', 
+    altText: 'test',
+    description: 'description sample',
+  },
+  {
+    fileName: 'adiaz-aecsplosion.png', 
     altText: 'test',
     description: 'description sample',
   },
