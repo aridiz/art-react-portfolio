@@ -9,6 +9,7 @@ const meta = {
 const dataportfolio = [];
 Object.keys(importedImages).forEach((imageKey, index) => {
     const item = {
+        id: importedImages[imageKey].id,
       img: importedImages[imageKey].path,
       description: importedImages[imageKey].description,
       alt: importedImages[imageKey].alt,
