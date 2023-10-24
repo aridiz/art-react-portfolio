@@ -11,7 +11,7 @@ export const Portfolio = () => {
 
   const openLightbox = (index) => {
     setCurrentIndex(index);
-    setToggler(true);
+    setToggler(!toggler);
   };
 
   return (
@@ -31,9 +31,8 @@ export const Portfolio = () => {
 
         <div className="mb-5 po_items_ho">
           {dataportfolio.map((data, i) => {
-            console.log(data.id);
             return (
-              <div key={data.id} className="po_item">
+              <div key={data.i} className="po_item">
                 <img src={data.img} alt={data.alt} />
 
                 <div className="content">
