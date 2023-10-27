@@ -34,10 +34,9 @@ export const Portfolio = () => {
             return (
               <div key={data.i} className="po_item">
                 <img src={data.img} alt={data.alt} />
-
                 <div className="content">
                   <p>{data.description}</p>
-                  <button onClick={() => openLightbox(i)}>View</button>
+                  <a href="#" onClick={() => openLightbox(i)}>View</a>
                 </div>
               </div>
             );
