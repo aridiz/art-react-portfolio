@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2507220d.css",
+    "main.js": "/static/js/main.694f7c4c.js",
+    "static/media/adiaz-portrait.webp": "/static/media/adiaz-portrait.06e399bb2136c4045814.webp",
+    "static/media/header-image.webp": "/static/media/header-image.ac18d3446d0884030a25.webp",
+    "static/media/adiaz-ice.jpg": "/static/media/adiaz-ice.cbd4da33d6338bdbedda.jpg",
+    "static/media/adiaz-the-eye.png": "/static/media/adiaz-the-eye.07ed66c3d393e977beab.png",
+    "static/media/adiaz-aecsplosion.png": "/static/media/adiaz-aecsplosion.9ea1f5bc2b00541b9c2c.png",
+    "static/media/adiaz-wood.jpeg": "/static/media/adiaz-wood.c6faa2f4cf77271a7d2c.jpeg",
+    "static/media/adiaz-flower.jpeg": "/static/media/adiaz-flower.8e8289a9f55db1d89cab.jpeg",
+    "index.html": "/index.html",
+    "main.2507220d.css.map": "/static/css/main.2507220d.css.map",
+    "main.694f7c4c.js.map": "/static/js/main.694f7c4c.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2507220d.css",
+    "static/js/main.694f7c4c.js"
+  ]
+}
