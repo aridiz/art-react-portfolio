@@ -7,3 +7,7 @@ src/assets/images/.DS_Store
 src/assets/images/gallery/.DS_Store
 .DS_Store
 .env.production
+
+# Local Netlify folder
+.netlify
+.env

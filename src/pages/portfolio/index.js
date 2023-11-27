@@ -10,6 +10,7 @@ export const Portfolio = () => {
   const [currentIndex, setCurrentIndex] = useState(0); // To keep track of the current portfolio item
 
   const openLightbox = (index) => {
+    // index.preventDefault(); //testing 
     setCurrentIndex(index);
     setToggler(!toggler);
   };
@@ -36,7 +37,7 @@ export const Portfolio = () => {
                 <img src={data.img} alt={data.alt} />
                 <div className="content">
                   <p>{data.description}</p>
-                  <a href="#" onClick={() => openLightbox(i)}>View</a>
+                  <button onClick={() => openLightbox(i)}>View</button>
                 </div>
               </div>
             );
