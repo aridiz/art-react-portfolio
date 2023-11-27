@@ -9,6 +9,7 @@
     --text-color-2: #fff;
     --text-color-3: rgb(138, 41, 145);
     --overlay-color: rgb(12 12 12 / 63%);
+    --cursor-color: rgb(138, 41, 145);
 }
 
 [data-theme="light"] {
@@ -19,6 +20,7 @@
     --text-color-2: #000;
     --text-color-3: rgb(138, 41, 145);
     --overlay-color: rgb(255 255 255 / 70%);
+    --cursor-color: rgb(138, 41, 145);
 }
 
 html,
@@ -77,6 +79,16 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
 
+.color_pr {
+    color: var(--primary-color) !important;
+}
+
+.color_sec {
+    color: var(--secondary-color);
+}
+
+/*Cursor settings*/
+
 .cursor__dot div {
     z-index: 999999 !important;
 }
@@ -88,12 +100,4 @@ code {
 .cursor__dot div:first-child {
     filter: invert(1);
     background-color: var(--overlay-color) !important;
-}
-
-.color_pr {
-    color: var(--primary-color) !important;
-}
-
-.color_sec {
-    color: var(--secondary-color);
 }

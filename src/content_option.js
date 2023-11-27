@@ -9,6 +9,7 @@ const meta = {
 const dataportfolio = [];
 Object.keys(importedImages).forEach((imageKey, index) => {
     const item = {
+        id: importedImages[imageKey].id,
       img: importedImages[imageKey].path,
       description: importedImages[imageKey].description,
       alt: importedImages[imageKey].alt,
@@ -29,7 +30,7 @@ const images = [
 const introdata = {
     title: "I’m Arianna",
     animated: {
-        first: "I see things",
+        first: "I SEE things",
         second: "I love TEXTURES and LIGHT ",
         third: "some sense of ALTERED reality",
     },
@@ -83,14 +84,13 @@ const services = [
 ];
 
 const contactConfig = {
-    YOUR_EMAIL: "info@ariannadiaz.com",
-    // YOUR_FONE: "(555)123-4567",
-    description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi vehicula eu nunc et sollicitudin. Cras pulvinar, nisi at imperdiet pharetra. ",
+    YOUR_EMAIL: process.env.REACT_APP_YOUR_EMAIL,
+    description: "Test description inside contact config ",
     // creat an emailjs.com account 
     // check out this tutorial https://www.emailjs.com/docs/examples/reactjs/
-    YOUR_SERVICE_ID: "service_id",
-    YOUR_TEMPLATE_ID: "template_id",
-    YOUR_USER_ID: "user_id",
+    YOUR_SERVICE_ID: process.env.REACT_APP_YOUR_SERVICE,
+    YOUR_TEMPLATE_ID: process.env.REACT_APP_YOUR_TEMPLATE,
+    YOUR_USER_ID: process.env.REACT_APP_YOUR_USER_ID,
 };
 
 const socialprofils = {

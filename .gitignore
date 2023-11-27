@@ -6,3 +6,4 @@ src/assets/images/.DS_Store
 .gitignore
 src/assets/images/gallery/.DS_Store
 .DS_Store
+.env.production

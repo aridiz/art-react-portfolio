@@ -90,13 +90,13 @@ function useEventListener(eventName, handler, element = document) {
 function CursorCore({
     outerStyle,
     innerStyle,
-    color = '177, 162, 87',
+    color = '138, 41, 145', 
     outerAlpha = 0.3,
     innerSize = 8,
     outerSize = 8,
     outerScale = 6,
     innerScale = 0.6,
-    trailingSpeed = 8,
+    trailingSpeed = 10,
     clickables = [
       'a',
       'input[type="text"]',
